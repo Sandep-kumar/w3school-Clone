@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>jQury Tutorial</title>
+
+    <!-- Add icon library, linking file for hamburger style in responsive design -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- end -->
+
+
+
+    <!-- css linking files -->
+    <!-- <link rel="stylesheet" href="css/maga.css"> -->
+    <!-- <link rel="stylesheet" href="css/about.css"> -->
+    <!-- <link rel="stylesheet" href="css/body.css"> -->
+    <!-- <link rel="stylesheet" href="css/grid.css"> -->
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/html.css">
+
+    <!-- end -->
+
+
+</head>
+
+<body>
+    <!-- head -->
+
+    <div class="head" style="height: 80px;">
+        <a href="index.html">w3school<span class="">.com</span></a>
+        <div class="head-right">
+
+            <a href="#about" style="letter-spacing: 16px; font-size:medium; line-height: 3">THE WORLD'S LARGEST LEARNING
+                SITE </a>
+            <a href="#search">Search</a>
+        </div>
+    </div>
+
+    <!-- head end here -->
+
+    <!-- navbar -->
+
+    <div class="topnav icon-bar" id="myTopnav">
+        <a href="index.html"><i class="fa fa-home"></i></a>
+        <a href="html.html"><i class="fa fa-html5"></i> HTML </a>
+        <a href="css.html"><i class="fa fa-css3"></i> CSS</a>
+        <a href="js.html"><i class="fa fa-jsfiddle"> JAVASCRIPT</i></a>
+        <a href="jQuery.html" class="active "> <i class="fa fa-jsfiddle"></i> jQuery</a>
+     </div>
+
+    <!-- nav end -->
+
+    <div class="section">
+
+        <div class="sidenav">
+          <a href="#about-us" style="margin-left: 5px;"> <h1>About-Us</h1></a>
+          <br>
+          <a href="contactUs.html" style="margin-left: 5px;"><h1>Contact</h1></a>
+          <br>
+            <h1 style="margin-left: 21px;">Learn HTML</h1>
+            <hr>
+           <ul> 
+            <a href="html.html">  <li>What is HTML?</li></a>
+            <a href="html.html">   <li>What is an HTML Element?</li> </a>
+            <a href="html.html">  <li>HTML Page Structure</li> </a>
+          </ul>
+          <br>
+          <h1 style="margin-left: 21px;">Learn CSS</h1>
+          <hr>
+         <ul> 
+          <a href="css.html">  <li>What is CSS?</li></a>
+          <a href="css.html">   <li>Why Use CSS?</li> </a>
+          <a href="css.html">  <li>CSS Solved a Big Problem</li> </a>
+          <a href="css.html">  <li>CSS Syntax</li> </a>
+        </ul>
+        <br>
+        <h1 style="margin-left: 21px;">Learn JavaScript</h1>
+        <hr>
+       <ul> 
+        <a href="js.html">  <li>What is JavaScript</li></a>
+        <a href="js.html">   <li>JavaScript Can Change HTML Content</li> </a>
+      </ul>
+      <br>
+      <h1 style="margin-left: 21px;">Learn jQuery</h1>
+      <hr>
+     <ul> 
+      <a href="#wis">  <li>What is jQuery?</li></a>
+      <a href="#wj">   <li>Why jQuery?</li> </a>
+      <a href="#aj">   <li>Adding jQuery to Your Web Pages</li> </a>
+      <a href="#jc">   <li>jQuery CDN</li> </a>
+    
+    </ul>
+    
+         
+        </div>
+    
+
+
+    <!-- body section which will change in every page -->
+
+
+
+
+
+
+
+    <div class="header">
+        <h2>jQuery Tutorial</h2>
+    </div>
+
+    <div class="row1">
+        <div class="leftcolumn">
+            <div id="wis" class="card">
+
+                <h2>What is jQuery?</h2>
+
+                <ul>
+                    <li>jQuery is a JavaScript Library.</li>
+                    <li>jQuery greatly simplifies JavaScript programming.</li>
+                    <li>jQuery is easy to learn.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="card">
+                <h1 style="padding-left: 30px;">What You Should Already Know</h1>
+                <p style="padding-left: 30px;">Before you start studying jQuery, you should have a basic knowledge of:
+                </p>
+                <ol>
+                    <li> <a href="html.html " style="color: black;"> <b> HTML </b></a> to define the content of web
+                        pages</li>
+                    <li> <a href="css.html" style="color: black;"> <b> CSS </b></a> to specify the layout of web pages
+                    </li>
+                    <li> <a href="js.html" style="color: black;"> <b> JavaScript</b> </a> to program the behavior of web
+                        pages</li>
+
+
+                </ol>
+                <p style="padding-left: 30px;">If you want to study these subjects first, find the tutorials on our <a
+                        href="js.html" style="color: black;"> <b> Home page.</b> </a></p>
+            </div>
+
+            <div id="wij" class="card">
+
+                <h1 style="padding-left: 30px;">What is jQuery?</h1>
+                <br>
+                <p style="padding-left: 30px; font-size: 25px;">jQuery is a lightweight, "write less, do more",
+                    JavaScript library.</p>
+
+                <p style="padding-left: 30px; font-size: 25px;">The purpose of jQuery is to make it much easier to use
+                    JavaScript on your website.</p>
+                <p style="padding-left: 30px; font-size: 25px;">jQuery takes a lot of common tasks that require many
+                    lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single
+                    line of code.</p>
+                <p style="padding-left: 30px; font-size: 25px;">jQuery also simplifies a lot of the complicated things
+                    from JavaScript, like AJAX calls and DOM manipulation.</p>
+                <br>
+                <ul>
+                    <p> The jQuery library contains the following features:</p>
+                    <li>HTML/DOM manipulation</li>
+                    <li>CSS manipulation</li>
+                    <li>HTML event methods</li>
+                    <li>Effects and animations</li>
+                    <li>AJAX</li>
+                    <li>Utilities</li>
+                </ul>
+                <p style="background-color: lightyellow; padding: 2rem; font-size: 22px;"><b>Tip:</b> In addition,
+                    jQuery has plugins for almost any task out there.</p>
+            </div>
+
+            <div id="wj" class="card">
+
+                <h1 style="padding-left: 30px;">Why jQuery?</h1>
+                <br>
+                <p style="padding-left: 30px; font-size: 25px;">There are lots of other JavaScript libraries out there,
+                    but jQuery is probably the most popular, and also the most extendable.</p>
+                <br>
+                <ul>
+                    <p> Many of the biggest companies on the Web use jQuery, such as:</p>
+                    <li>Google</li>
+                    <li>Microsoft</li>
+                    <li>IBM</li>
+                    <li>Netflix</li>
+                </ul>
+                <p style="background-color: lightyellow; padding: 2rem; font-size: 22px;"><b>Will jQuery work in all
+                        browsers?</b> <br> The jQuery team knows all about cross-browser issues, and they have written
+                    this knowledge into the jQuery library. jQuery will run exactly the same in all major browsers.</p>
+            </div>
+
+            <div id="aj" class="card">
+
+                <h1 style="padding-left: 30px;">Adding jQuery to Your Web Pages</h1>
+                <br>
+                <ul>
+                    <p> There are several ways to start using jQuery on your web site. You can:</p>
+                    <li>Download the jQuery library from jQuery.com</li>
+                    <li>Include jQuery from a CDN, like Google</li>
+
+                </ul>
+            </div>
+            <div class="card">
+
+                <h1 style="padding-left: 30px;">Downloading jQuery</h1>
+                <br>
+                <ul>
+                    <p> There are two versions of jQuery available for downloading:</p>
+                    <li>Production version - this is for your live website because it has been minified and compressed
+                    </li>
+                    <li>Development version - this is for testing and development (uncompressed and readable code)</li>
+                </ul>
+                <p style="padding-left: 30px; font-size: 25px;">Both versions can be downloaded from jQuery.com.</p>
+                <p style="padding-left: 30px; font-size: 25px;">The jQuery library is a single JavaScript file, and you
+                    reference it with the HTML &lt;script&#62; tag (notice that the &lt;script&#62; tag should be inside
+                    the &lt;head&#62; section):</p>
+                <img src="img/jQuery/1.PNG" alt="" srcset=""> <br>
+                <p style="background-color: lightyellow; padding: 2rem; font-size: 22px;"><b>Tip:</b>Place the
+                    downloaded file in the same directory as the pages where you wish to use it.</p>
+            </div>
+
+            <div id="jc" class="card">
+
+                <h1 style="padding-left: 30px;">jQuery CDN</h1>
+
+                <p style="padding-left: 30px; font-size: 25px;">If you don't want to download and host jQuery yourself,
+                    you can include it from a CDN (Content Delivery Network).</p>
+                <p style="padding-left: 30px; font-size: 25px;">Google is an example of someone who host jQuery:</p>
+                <h2 style="padding-left: 30px;">Google CDN:</h2>
+                <img src="img/jQuery/2.PNG" alt="" srcset=""> <br>
+                <p style="background-color: lightyellow; padding: 2rem; font-size: 22px;"><b>One big advantage of using
+                        the hosted jQuery from Google:
+                    </b> <br>Many users already have downloaded jQuery from Google when visiting another site. As a
+                    result, it will be loaded from cache when they visit your site, which leads to faster loading time.
+                    Also, most CDN's will make sure that once a user requests a file from it, it will be served from the
+                    server closest to them, which also leads to faster loading time.</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="rightcolumn">
+            <div class="card">
+
+                <img src="img/html/StaticAd.jpg" alt="" srcset=""> <br>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <img src="img/html/download.jpg" alt="" srcset=""> <br>
+                <img src="img/html/ad.jpg" alt="" srcset=""> <br>
+                <div class="fakeimg">Image</div>
+            </div>
+            <div class="card">
+                <h3>Follow Me <i class="fa fa-fw fa-instagram"></i>instagram</h3>
+                <p>Some text..</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2 style="font-size:25px; color:rgb(71, 69, 69);">Copyright 1999-2021 by Refsnes Data. All Rights Reserved.
+        </h2>
+        <h2 style="font-size:25px; color:rgb(71, 69, 69);">W3Schools is Powered by W3.CSS.</h2>
+    </div>
+
+
+
+
+    <!-- body till this point -->
+
+
+    <!-- login form -->
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <img src="img/avtar.jpg" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <a href="signin.html"><button type="button" class="cancelbtn">Sign Up</button></a>
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+
+
+    <!-- end  -->
+
+    <!-- login end -->
+
+</body>
+
+<!-- js file  -->
+<script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script src="js/nav.js"></script>
+<script src="js/grid.js"></script>
+<!-- js file ends -->
+
+</html>

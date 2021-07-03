@@ -1,0 +1,142 @@
+/* top head styling */
+
+  .head{
+    height: 8vh;
+  }
+
+
+
+
+/* sidebar styling */
+.section{
+    /* border: black 1px solid; */
+    height: auto;
+}
+.sidenav {
+    box-sizing: border-box;
+    box-shadow:1px 1px 20px gray;
+    height: 244%;
+    width: 340px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color: rgb(204, 198, 198);
+    overflow-x: hidden;
+    padding-top: 20px;
+    scroll-behavior: smooth;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #222121;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  /* body styling */
+  
+  .container1 {
+    margin-left: 239px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 48.203px;
+    padding-top: 100px;
+    height: 700px;
+    margin-bottom: 25px;
+  }
+  .column-66
+  {
+    
+    width: 50%;
+  }
+  .column-33
+  {
+ 
+    width: 50%;
+  }
+  
+ /* Footer */
+ .footer {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: 348px;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+
+  /* responsive contaner for mobile */
+  @media (min-width: 1200px){
+    .container1 {
+        max-width: 91%;
+        margin-left: 342px;
+    }
+    .grid{
+      max-width: 90%;
+      margin-left: 342px;
+      padding: 3rem;
+      background-color: rgb(46, 46, 46);
+  }
+  #about-us{
+    margin-top: 135px; ;
+    max-width: 90%;
+    margin-left: 342px;
+}
+    }
+
+    @media screen and (max-width: 1000px) {
+      .column-66,
+      .column-33 {
+        width: 100%;
+        text-align: center;
+      }
+      img {
+        margin: auto;
+      }
+      .container1 {
+
+        margin-left: 0px; /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 48.203px;
+        height: auto;
+      }
+      .sidenav{
+        display: none;
+        }
+    .grid{
+      margin: 4px;
+    
+       }
+       #about-us{
+        margin-top: 135px; ;
+        width: 90%;
+        margin-left: 0px;
+    }
+    .head {
+      display: none;
+   }
+  .footer{
+    margin:0px;
+    height: auto;
+    width: 100%;
+  }
+  button
+  {
+    display: none;
+  }
+    }
+  /* body style-end */
+
+  /* utlity class */
+    
+  p{
+    font-size: 1.2rem;
+  }
+  /* end  */
+

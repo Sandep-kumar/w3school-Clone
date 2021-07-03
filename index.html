@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>W3school-Clone</title>
+
+  <!-- Add icon library, linking file for hamburger style in responsive design -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- end -->
+
+
+
+  <!-- css linking files -->
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/head.css">
+  <link rel="stylesheet" href="css/icon.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/nav.css">
+   <!-- end -->
+
+
+</head>
+
+<body>
+  <!-- head -->
+ 
+  <div class="head" style="height: 80px;">
+    <a  href="index.html">w3school<span class="">.com</span></a>
+    <div class="head-right">
+     
+      <a href="#about" style="letter-spacing: 16px; font-size:medium; line-height: 3">THE WORLD'S LARGEST LEARNING SITE </a>
+      <a href="#search">Search</a>
+    </div>
+  </div>
+    
+  <!-- head end here -->
+
+  <!-- navbar -->
+
+  <div class="topnav icon-bar" id="myTopnav">
+    <a href="index.html" class="active "><i class="fa fa-home"></i></a>
+    <a href="html.html"><i class="fa fa-html5"></i> HTML </a>
+    <a href="css.html"><i class="fa fa-css3"></i> CSS</a>
+    <a href="js.html"><i class="fa fa-jsfiddle">JAVASCRIPT</i></a>
+    <a href="jQuery.html"> <i class="fa fa-jsfiddle"></i> jQuery</a>
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto; font-size: 20px;"><i
+        class="fa fa-fw fa-user"></i> Login</button>
+
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- nav end -->
+
+  <div class="section">
+
+    <div class="sidenav">
+      <a href="#about-us" style="margin-left: 5px;"> <h1>About-Us</h1></a>
+      <br>
+      <a href="contactUs.html" style="margin-left: 5px;"><h1>Contact</h1></a>
+      <br>
+        <h1 style="margin-left: 21px;">Learn HTML</h1>
+        <hr>
+       <ul> 
+        <a href="html.html">  <li>What is HTML?</li></a>
+        <a href="html.html">   <li>What is an HTML Element?</li> </a>
+        <a href="html.html">  <li>HTML Page Structure</li> </a>
+      </ul>
+      <br>
+      <h1 style="margin-left: 21px;">Learn CSS</h1>
+      <hr>
+     <ul> 
+      <a href="css.html">  <li>What is CSS?</li></a>
+      <a href="css.html">   <li>Why Use CSS?</li> </a>
+      <a href="css.html">  <li>CSS Solved a Big Problem</li> </a>
+      <a href="css.html">  <li>CSS Syntax</li> </a>
+    </ul>
+    <br>
+    <h1 style="margin-left: 21px;">Learn JavaScript</h1>
+    <hr>
+   <ul> 
+    <a href="js.html">  <li>What is JavaScript</li></a>
+    <a href="jQuery.html">   <li>JavaScript Can Change HTML Content</li> </a>
+  </ul>
+  <br>
+  <h1 style="margin-left: 21px;">Learn jQuery</h1>
+  <hr>
+ <ul> 
+  <a href="jQuery.html">  <li>What is jQuery?</li></a>
+  <a href="jQuery.html">   <li>Why jQuery?</li> </a>
+  <a href="jQuery.html">   <li>Adding jQuery to Your Web Pages</li> </a>
+  <a href="jQuery.html">   <li>jQuery CDN</li> </a>
+
+</ul>
+
+     
+    </div>
+
+
+    <!-- body section which will change in every page -->
+
+    <!-- The HTML Section -->
+    <div class="container1">
+      <div class="row">
+        <div class="column-66">
+          <h1 class="xlarge-font"><b>HTML</b></h1>
+          <h1 class="large-font" style="color:MediumSeaGreen;"><b>Where to Start?</b></h1>
+          <p><span style="font-size:36px">Langauge's Developers.</span> <br>The langage for building websites</p>
+          <button class="button"> <a href="html.html" style="text-decoration: none; color: white;"> LEARN HTML </a></button>
+        </div>
+        <div class="column-33">
+          <img src="img/img.PNG">
+        </div>
+      </div>
+    </div>
+
+    <!-- CSS Section -->
+    <div class="container1" style="background-color:#f1f1f1">
+      <div class="row">
+        <div class="column-33">
+          <img src="img/img.PNG" alt="App">
+        </div>
+        <div class="column-66">
+          <h1 class="xlarge-font"><b>CSS</b></h1>
+          <h1 class="large-font" style="color:MediumSeaGreen;"><b>Style, what's that?</b></h1>
+          <p><span style="font-size:24px">A revolution in resolution.</span> <br> The langauge for style web page.</p>
+          <button class="button" > <a href="css.html" style="text-decoration: none; color: white;">LEARN CSS</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- The JS Section -->
+    <div class="container1">
+      <div class="row">
+        <div class="column-66">
+          <h1 class="xlarge-font"><b>JAVASCRIPT</b></h1>
+          <h1 class="large-font" style="color:MediumSeaGreen;"><b>How it works?</b></h1>
+          <p><span style="font-size:36px">Code to websites.</span> <br> The langauge for Programming web pages.</p>
+          <button class="button"> <a href="js.html" style="text-decoration: none; color: white;">LEARN JS</a></button>
+        </div>
+        <div class="column-33">
+          <img src="img/img.PNG">
+        </div>
+      </div>
+    </div>
+
+    <!-- grid for sever side lagauage  -->
+    <div class="grid">
+<div id="btnContainer">
+  <button class="btn0" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+  <button class="btn0 active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+</div>
+<br>
+<div class="row1">
+  <div class="column" style="background-color:white;">
+    <h1>PHP</h1>
+    <p>A web server programming language</p>
+  </div>
+  <div class="column" style="background-color:white;">
+    <h1>Python</h1>
+    <p>A programming language</p>
+  </div>
+</div>
+
+<div class="row1">
+  <div class="column" style="background-color:white;">
+    <h1>jQuery</h1>
+    <p>A JavaScript library for developing web pages</p>
+  </div>
+  <div class="column" style="background-color:white;">
+    <h1>Java</h1>
+    <p>A programming language</p>
+  </div>
+</div>
+</div>
+ <!-- grid ends here  -->
+
+
+
+
+    <!-- till this point -->
+
+
+    <!-- login form -->
+
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close"
+            title="Close Modal">&times;</span>
+          <img src="img/avtar.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          <a href="signin.html"><button type="button" class="cancelbtn">Sign Up</button></a>
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+ 
+
+
+    <div class="footer">
+      <h2 style="font-size:25px; color:rgb(71, 69, 69);">Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</h2>
+      <h2 style="font-size:25px; color:rgb(71, 69, 69);">W3Schools is Powered by W3.CSS.</h2>
+  </div>
+
+
+    <!-- login end -->
+
+</body>
+
+<!-- js file  -->
+<script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+<script src="js/nav.js"></script>
+<script src="js/grid.js"></script>
+<!-- js file ends -->
+</html>
